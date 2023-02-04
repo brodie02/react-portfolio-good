@@ -48,6 +48,7 @@ h2 {
 .hello {
   height: 86vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 70px;
@@ -56,6 +57,7 @@ h2 {
 
 .hello span {
   color: var(--light);
+  font-size: 100px;
 }
 
 img {
@@ -78,7 +80,7 @@ img {
 }
 
 .footer {
-  background-color: var(--dark);
+  background-color: var(--blue);
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -94,4 +96,40 @@ img {
 
 .footer ul a {
   color: var(--white);
+}
+
+/* CSS */
+.hello button {
+  background-color: var(--white);
+  border: 1px solid #222222;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: var(--black);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.hello button:hover {
+  background-color: var(--light);
+}
+
+
+.hello button:active {
+  background-color: var(--light);
+  border-color: #000000;
+  transform: scale(.96);
 }
