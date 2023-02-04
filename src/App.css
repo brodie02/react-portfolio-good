@@ -6,10 +6,6 @@
   --black: #220c10;
 }
 
-body {
-  overflow: hidden;
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -31,10 +27,14 @@ header a {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h2 {
+  font-size: 48px;
+}
+
+h3 {
   font-size: 35px;
 }
 
@@ -65,9 +65,9 @@ h2 {
   font-size: 100px;
 }
 
-img {
-  width: 10%;
-  height: 10%;
+.about img {
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
 }
 
@@ -75,13 +75,55 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 20px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .about p {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.about-body {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  gap: 90px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.project img {
+  width: 850px;
 }
 
 .footer {
@@ -103,7 +145,7 @@ img {
   color: var(--white);
 }
 
-.hello button {
+.button {
   background-color: var(--white);
   border: 1px solid #222222;
   border-radius: 50px;
@@ -127,12 +169,12 @@ img {
   width: auto;
 }
 
-.hello button:hover {
+.button:hover {
   background-color: var(--light);
 }
 
 
-.hello button:active {
+.button:active {
   background-color: var(--light);
   border-color: #000000;
   transform: scale(.96);
