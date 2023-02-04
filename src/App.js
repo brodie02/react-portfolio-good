@@ -25,7 +25,7 @@ function App() {
     if (currentPage === 'Resume') {
       return <Resume />
     }
-    return <Hello />
+    return <Hello setCurrentPage={setCurrentPage}/>
   }
 
   return (
