@@ -26,6 +26,10 @@ header a {
   color: var(--white);
 }
 
+a:hover {
+  color: #17bebb;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -48,6 +52,11 @@ h3 {
   text-decoration: none;
   color: var(--white);
   font-size: 25px;
+}
+
+.active {
+  background-color: var(--light);
+  padding: 40px;
 }
 
 .hello {
