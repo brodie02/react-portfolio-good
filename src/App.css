@@ -77,7 +77,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .about p {
@@ -93,8 +93,25 @@ h3 {
 }
 
 .about-tech img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black solid 2px;
+  margin: 15px;
+}
+
+.table-title {
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue);
+  color: var(--white);
+  width: 100%;
 }
 
 .portfolio h2 {
