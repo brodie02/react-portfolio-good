@@ -3,7 +3,6 @@ import React from 'react'
 export default function Project ({title, image, body, tech, app, github}) {
     return (
         <div className='project'>
-            <h2>Portfolio</h2>
             <div className='project-body'>
                 <h3>{title}</h3>
                 <img src={image} alt='tech blog website'></img>
