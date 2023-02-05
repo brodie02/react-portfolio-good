@@ -2,7 +2,7 @@
   "name": "react-portfolio-good",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{brodie02}.github.io/{react-portfolio-good}",
+  "homepage": "https://brodie02.github.io/react-portfolio-good",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
