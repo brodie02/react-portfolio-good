@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/%7Breact-portfolio-good%7D/static/css/main.b53ce1bf.css",
-    "main.js": "/%7Breact-portfolio-good%7D/static/js/main.48cfb217.js",
-    "static/media/headshot.png": "/%7Breact-portfolio-good%7D/static/media/headshot.a950d2ccefbaa3cb830d.png",
-    "static/media/workout.png": "/%7Breact-portfolio-good%7D/static/media/workout.fdb1c0823fc9e0dc6886.png",
-    "static/media/weather.png": "/%7Breact-portfolio-good%7D/static/media/weather.f55efb5aa96abf9a4c68.png",
-    "static/media/event.png": "/%7Breact-portfolio-good%7D/static/media/event.3a12c72309e1a5d8060d.png",
-    "static/media/scheduler.png": "/%7Breact-portfolio-good%7D/static/media/scheduler.a4b32bb673bfe52603c7.png",
-    "static/media/techBlog.png": "/%7Breact-portfolio-good%7D/static/media/techBlog.6e0cfde97276f63b0e91.png",
-    "static/media/textEditor.png": "/%7Breact-portfolio-good%7D/static/media/textEditor.7fd2573d26781b4f5c1f.png",
-    "static/media/resume.pdf": "/%7Breact-portfolio-good%7D/static/media/resume.58acd1739fcac351b131.pdf",
-    "static/media/mongoose.png": "/%7Breact-portfolio-good%7D/static/media/mongoose.df9141d3ce372e166420.png",
-    "static/media/sequelize.png": "/%7Breact-portfolio-good%7D/static/media/sequelize.d98b2554b49e415e0c08.png",
-    "index.html": "/%7Breact-portfolio-good%7D/index.html",
-    "main.b53ce1bf.css.map": "/%7Breact-portfolio-good%7D/static/css/main.b53ce1bf.css.map",
-    "main.48cfb217.js.map": "/%7Breact-portfolio-good%7D/static/js/main.48cfb217.js.map"
+    "main.css": "/react-portfolio-good/static/css/main.b53ce1bf.css",
+    "main.js": "/react-portfolio-good/static/js/main.ac810573.js",
+    "static/media/headshot.png": "/react-portfolio-good/static/media/headshot.a950d2ccefbaa3cb830d.png",
+    "static/media/workout.png": "/react-portfolio-good/static/media/workout.fdb1c0823fc9e0dc6886.png",
+    "static/media/weather.png": "/react-portfolio-good/static/media/weather.f55efb5aa96abf9a4c68.png",
+    "static/media/event.png": "/react-portfolio-good/static/media/event.3a12c72309e1a5d8060d.png",
+    "static/media/scheduler.png": "/react-portfolio-good/static/media/scheduler.a4b32bb673bfe52603c7.png",
+    "static/media/techBlog.png": "/react-portfolio-good/static/media/techBlog.6e0cfde97276f63b0e91.png",
+    "static/media/textEditor.png": "/react-portfolio-good/static/media/textEditor.7fd2573d26781b4f5c1f.png",
+    "static/media/resume.pdf": "/react-portfolio-good/static/media/resume.58acd1739fcac351b131.pdf",
+    "static/media/mongoose.png": "/react-portfolio-good/static/media/mongoose.df9141d3ce372e166420.png",
+    "static/media/sequelize.png": "/react-portfolio-good/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "index.html": "/react-portfolio-good/index.html",
+    "main.b53ce1bf.css.map": "/react-portfolio-good/static/css/main.b53ce1bf.css.map",
+    "main.ac810573.js.map": "/react-portfolio-good/static/js/main.ac810573.js.map"
   },
   "entrypoints": [
     "static/css/main.b53ce1bf.css",
-    "static/js/main.48cfb217.js"
+    "static/js/main.ac810573.js"
   ]
 }
