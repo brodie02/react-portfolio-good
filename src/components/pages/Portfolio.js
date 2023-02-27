@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from '../Project'
 
+import eCommerce from '../images/shop.png'
 import techBlog from '../images/techBlog.png'
 import weatherDash from '../images/weather.png'
 import workout from '../images/workout.png'
@@ -10,6 +11,14 @@ import textEditor from '../images/textEditor.png'
 
 export default function Portfolio () {
     const projects = [
+        {
+            title: 'E-Commerce Shop',
+            image: eCommerce,
+            body: "This e-commerce shop is a basic e-commerce website where the user can browse through the store's products, add them to their cart, checkout and purchase the items in their cart. My plan for this website is to continue to work on it to add more features, clean up and improve the presentation of the website, and overall improve my skills and knowledge of web development. This application was made in 2 weeks by myself.",
+            tech: "Technologies: MERN Stack, GraphQL, Apollo, JSON Web Token, Stripe",
+            app: "https://cryptic-reaches-14388.herokuapp.com/",
+            github: "https://github.com/brodie02/mern-ecommerce-website"
+        },
         {
             title: 'Tech Blog',
             image: techBlog,
